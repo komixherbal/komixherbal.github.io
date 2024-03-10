@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dokumen untuk Cetak</title>
+<style>
+  @media print {
+    .page-break {
+      page-break-after: always;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Halaman 1 -->
+<div>
+  <h1>Halaman 1</h1>
+  <p>Ini adalah konten halaman pertama.</p>
+</div>
+
+<!-- Halaman 2 -->
+<div class="page-break">
+  <h1>Halaman 2</h1>
+  <p>Ini adalah konten halaman kedua.</p>
+</div>
+
+<!-- Halaman 3 -->
+<div class="page-break">
+  <h1>Halaman 3</h1>
+  <p>Ini adalah konten halaman ketiga.</p>
+</div>
+
+</body>
+</html>
